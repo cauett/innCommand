@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SquishReport version="3.5" xmlns="http://www.froglogic.com/resources/schemas/xml3" executedBy="cauet costa">
+    <test type="testcase">
+        <prolog time="2024-09-16T18:14:10.511-03:00">
+            <name><![CDATA[tst_ReservaBDD]]></name>
+            <location>
+                <uri><![CDATA[x-testsuite:/tst_ReservaBDD]]></uri>
+            </location>
+        </prolog>
+        <test type="feature">
+            <prolog time="2024-09-16T18:14:11.423-03:00">
+                <name><![CDATA[Preenchimento de formulário de reserva]]></name>
+                <description><![CDATA[Como um usuário do sistema,
+Quero acessar a página local e preencher o formulário de reserva,
+Para reservar uma estadia com as informações fornecidas.]]></description>
+                <location>
+                    <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                    <lineNo><![CDATA[1]]></lineNo>
+                </location>
+            </prolog>
+            <test type="scenario">
+                <prolog time="2024-09-16T18:14:11.461-03:00">
+                    <name><![CDATA[Preencher e enviar o formulário de reserva]]></name>
+                    <location>
+                        <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                        <lineNo><![CDATA[7]]></lineNo>
+                    </location>
+                </prolog>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:11.461-03:00">
+                        <name><![CDATA[Given que a página 'http://localhost:3000' está aberta no navegador]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[9]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:25.952-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:25.952-03:00">
+                        <name><![CDATA[And a imagem da seção de reserva é visível]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[10]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:26.921-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:26.921-03:00">
+                        <name><![CDATA[When eu clico no botão de reservar]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[11]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:27.995-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:27.995-03:00">
+                        <name><![CDATA[And eu preencho a data de check-in com '31122024']]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[12]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.010-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:28.010-03:00">
+                        <name><![CDATA[And eu preencho a data de check-out com '05012025']]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[13]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.025-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:28.025-03:00">
+                        <name><![CDATA[And eu seleciono o número de hóspedes]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[14]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.029-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:28.029-03:00">
+                        <name><![CDATA[And eu seleciono o quarto]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[15]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.040-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:28.040-03:00">
+                        <name><![CDATA[And eu preencho o nome com 'Carlos Cauet Ferreira Costa']]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[16]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.093-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:28.093-03:00">
+                        <name><![CDATA[And eu preencho o email com 'teste.com']]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[17]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.130-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:28.130-03:00">
+                        <name><![CDATA[And eu preencho o telefone com '881234567']]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[18]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.153-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:28.153-03:00">
+                        <name><![CDATA[Then eu confirmo a reserva]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[19]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.157-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:14:28.157-03:00">
+                        <name><![CDATA[And o formulário de reserva deve ser enviado]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[20]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:14:28.158-03:00"/>
+                </test>
+                <epilog time="2024-09-16T18:14:28.270-03:00"/>
+            </test>
+            <epilog time="2024-09-16T18:14:28.271-03:00"/>
+        </test>
+        <epilog time="2024-09-16T18:14:28.271-03:00"/>
+    </test>
+</SquishReport>

@@ -1,0 +1,2 @@
+Se trata de uma planilha com todos os casos de teste criados para o InnCommand usando MODELO CT.
+Cada caso de teste faz referência a um requisito funcional esperado no sistema.

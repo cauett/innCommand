@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SquishReport version="3.5" xmlns="http://www.froglogic.com/resources/schemas/xml3" executedBy="cauet costa">
+    <test type="testcase">
+        <prolog time="2024-09-16T18:10:51.870-03:00">
+            <name><![CDATA[tst_ContatosBDD]]></name>
+            <location>
+                <uri><![CDATA[x-testsuite:/tst_ContatosBDD]]></uri>
+            </location>
+        </prolog>
+        <test type="feature">
+            <prolog time="2024-09-16T18:10:52.601-03:00">
+                <name><![CDATA[Preenchimento do formulário de contatos]]></name>
+                <description><![CDATA[Como um usuário do sistema,
+Quero acessar a página local, rolar até o final da página,
+E preencher o formulário de contatos,
+Para enviar meus dados para a empresa.]]></description>
+                <location>
+                    <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                    <lineNo><![CDATA[1]]></lineNo>
+                </location>
+            </prolog>
+            <test type="scenario">
+                <prolog time="2024-09-16T18:10:52.602-03:00">
+                    <name><![CDATA[Preencher e enviar o formulário de contatos]]></name>
+                    <location>
+                        <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                        <lineNo><![CDATA[8]]></lineNo>
+                    </location>
+                </prolog>
+                <test type="step">
+                    <prolog time="2024-09-16T18:10:52.602-03:00">
+                        <name><![CDATA[Given que a página 'http://localhost:3000' está aberta no navegador]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[10]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:07.223-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:07.223-03:00">
+                        <name><![CDATA[And a imagem da seção de contatos é visível]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[11]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:08.177-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:08.177-03:00">
+                        <name><![CDATA[When eu clico na seção de contatos]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[12]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:09.289-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:09.289-03:00">
+                        <name><![CDATA[And eu pressiono a tecla Down por '1.9' segundos]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[13]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:11.251-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:11.251-03:00">
+                        <name><![CDATA[And eu clico no campo nome]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[14]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:12.013-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:12.013-03:00">
+                        <name><![CDATA[And eu digito 'Carlos Cauet Ferreira Costa' no campo nome]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[15]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:12.080-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:12.080-03:00">
+                        <name><![CDATA[And eu clico no campo telefone]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[16]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:12.884-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:12.884-03:00">
+                        <name><![CDATA[And eu digito '881234567' no campo telefone]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[17]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:12.910-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:12.910-03:00">
+                        <name><![CDATA[And eu clico no campo email]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[18]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:13.400-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:13.400-03:00">
+                        <name><![CDATA[And eu digito 'teste.com' no campo email]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[19]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:13.426-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:13.427-03:00">
+                        <name><![CDATA[And eu clico no campo mensagem]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[20]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:13.977-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:13.977-03:00">
+                        <name><![CDATA[And eu digito 'incommand é o melhor' no campo mensagem]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[21]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:14.058-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:14.059-03:00">
+                        <name><![CDATA[Then eu clico no botão de enviar]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[22]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:14.570-03:00"/>
+                </test>
+                <test type="step">
+                    <prolog time="2024-09-16T18:11:14.570-03:00">
+                        <name><![CDATA[And o formulário deve ser enviado com sucesso]]></name>
+                        <location>
+                            <uri><![CDATA[x-testcase:/test.feature]]></uri>
+                            <lineNo><![CDATA[23]]></lineNo>
+                        </location>
+                    </prolog>
+                    <epilog time="2024-09-16T18:11:14.571-03:00"/>
+                </test>
+                <epilog time="2024-09-16T18:11:14.582-03:00"/>
+            </test>
+            <epilog time="2024-09-16T18:11:14.582-03:00"/>
+        </test>
+        <epilog time="2024-09-16T18:11:14.582-03:00"/>
+    </test>
+</SquishReport>

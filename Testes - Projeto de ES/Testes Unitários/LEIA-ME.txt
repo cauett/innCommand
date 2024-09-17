@@ -1,0 +1,4 @@
+1 - A imagem "Passados" mostra todos os testes unitários e suas suites passadas.
+2 - "Erro Unitário 1" mostra um dos erros enfrentados durante o processo do back-end.
+3 - "Erro Unitário 2" também mostra um dos erros enfrentados.
+4 - "test-logs" se trata do log impresso ao realizar um run nos testes unitários.

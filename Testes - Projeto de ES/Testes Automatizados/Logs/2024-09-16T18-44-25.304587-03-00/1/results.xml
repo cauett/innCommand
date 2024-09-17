@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SquishReport version="3.5" xmlns="http://www.froglogic.com/resources/schemas/xml3" executedBy="cauet costa">
+    <test type="testcase">
+        <prolog time="2024-09-16T18:44:25.606-03:00">
+            <name><![CDATA[tst_ReservaBDD]]></name>
+            <location>
+                <uri><![CDATA[x-testsuite:/tst_ReservaBDD]]></uri>
+            </location>
+        </prolog>
+        <message time="2024-09-16T18:44:26.606-03:00" type="FATAL">
+            <location>
+                <uri><![CDATA[x-testsuite:/shared/steps/steps.py]]></uri>
+                <lineNo><![CDATA[21]]></lineNo>
+            </location>
+            <stacktrace>
+                <location>
+                    <uri><![CDATA[x-testsuite:/shared/steps/steps.py]]></uri>
+                    <lineNo><![CDATA[21]]></lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[file:///C:/Users/cauet/Squish%20for%20Web%208.0.0/scriptmodules/python/bdd.py]]></uri>
+                    <lineNo><![CDATA[467]]></lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[x-testcase:/test.py]]></uri>
+                    <lineNo><![CDATA[4]]></lineNo>
+                </location>
+            </stacktrace>
+            <text><![CDATA[Evaluation error]]></text>
+            <detail><![CDATA[invalid syntax (steps.py, line 21)]]></detail>
+        </message>
+        <epilog time="2024-09-16T18:44:26.659-03:00"/>
+    </test>
+</SquishReport>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SquishReport xmlns="http://www.froglogic.com/resources/schemas/xml3" version="3.5">
+    <test type="testsuite">
+        <prolog time="2024-09-16T18:44:25.304587-03:00">
+            <name><![CDATA[suite_InCommand]]></name>
+            <location>
+                <uri><![CDATA[file:/C:/Users/cauet/suite_InCommand/]]></uri>
+            </location>
+        </prolog>
+    <test type="testcase">
+        <prolog time="2024-09-16T18:44:25.606-03:00">
+            <name>tst_ReservaBDD</name>
+            <location>
+                <uri><![CDATA[x-testsuite:/tst_ReservaBDD]]></uri>
+            </location>
+        </prolog>
+        <message time="2024-09-16T18:44:26.606-03:00" type="FATAL">
+            <location>
+                <uri><![CDATA[x-testsuite:/shared/steps/steps.py]]></uri>
+                <lineNo>21</lineNo>
+            </location>
+            <stacktrace>
+                <location>
+                    <uri><![CDATA[x-testsuite:/shared/steps/steps.py]]></uri>
+                    <lineNo>21</lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[file:///C:/Users/cauet/Squish%20for%20Web%208.0.0/scriptmodules/python/bdd.py]]></uri>
+                    <lineNo>467</lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[x-testcase:/test.py]]></uri>
+                    <lineNo>4</lineNo>
+                </location>
+            </stacktrace>
+            <text>Evaluation error</text>
+            <detail>invalid syntax (steps.py, line 21)</detail>
+        </message>
+        <epilog time="2024-09-16T18:44:26.659-03:00"></epilog>
+    </test>
+
+        <epilog time="2024-09-16T18:44:27.2100057-03:00"></epilog>
+    </test>
+</SquishReport>

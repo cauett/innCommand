@@ -1,0 +1,3 @@
+1 - Na pasta SCRIPT estão presentes as imagens que foram usadas para que o teste encontrasse alguns objetos específicos, tornando assim os testes mais preparados para diferentes situações.
+2 - Ainda na pasta SCRIPT temos o arquivo STEPS, onde está presente todo o código referente aos casos de teste.
+3 - Na pasta CASOS DE TESTE estão presentes os casos de teste que foram automatizados em Squish. Em cada uma das pastas é possível encontrar o BDD dos testes e um arquivo que envia parâmetros para iniciar a aplicação dentro do Squish.

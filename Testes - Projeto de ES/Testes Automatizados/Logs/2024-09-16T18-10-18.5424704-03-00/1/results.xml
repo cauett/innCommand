@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SquishReport version="3.5" xmlns="http://www.froglogic.com/resources/schemas/xml3" executedBy="cauet costa">
+    <test type="testcase">
+        <prolog time="2024-09-16T18:10:18.773-03:00">
+            <name><![CDATA[tst_ContatosBDD]]></name>
+            <location>
+                <uri><![CDATA[x-testsuite:/tst_ContatosBDD]]></uri>
+            </location>
+        </prolog>
+        <message time="2024-09-16T18:10:19.604-03:00" type="FATAL">
+            <location>
+                <uri><![CDATA[x-testsuite:/shared/steps/steps.py]]></uri>
+                <lineNo><![CDATA[92]]></lineNo>
+            </location>
+            <stacktrace>
+                <location>
+                    <uri><![CDATA[x-testsuite:/shared/steps/steps.py]]></uri>
+                    <lineNo><![CDATA[92]]></lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[file:///C:/Users/cauet/Squish%20for%20Web%208.0.0/scriptmodules/python/bdd.py]]></uri>
+                    <lineNo><![CDATA[212]]></lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[file:///C:/Users/cauet/Squish%20for%20Web%208.0.0/scriptmodules/python/bdd.py]]></uri>
+                    <lineNo><![CDATA[417]]></lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[x-testsuite:/shared/steps/steps.py]]></uri>
+                    <lineNo><![CDATA[93]]></lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[file:///C:/Users/cauet/Squish%20for%20Web%208.0.0/scriptmodules/python/bdd.py]]></uri>
+                    <lineNo><![CDATA[468]]></lineNo>
+                </location>
+                <location>
+                    <uri><![CDATA[x-testcase:/test.py]]></uri>
+                    <lineNo><![CDATA[4]]></lineNo>
+                </location>
+            </stacktrace>
+            <text><![CDATA[Evaluation error]]></text>
+            <detail><![CDATA[SquishBDDStepRegisterException: Pattern 'que a página '|any|' está aberta no navegador' duplicates previously registered pattern at C:\Users\cauet\suite_InCommand\shared\steps\steps.py:6]]></detail>
+        </message>
+        <epilog time="2024-09-16T18:10:19.633-03:00"/>
+    </test>
+</SquishReport>
